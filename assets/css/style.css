@@ -1,0 +1,47 @@
+/*   Estilos da página index.html*/
+.center{
+        text-align: center;
+}
+
+p{
+    font-size: 20px;
+    color: black;
+    margin: 3px;
+}
+
+.center {
+        text-align: center;
+}
+
+body{
+    background-color:rgb(140, 224, 235);
+}
+
+ul,li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content:center;
+}
+
+.profile-introducao{
+    display: block;
+    text-align: left;
+}
+
+.foto-centro{
+    text-align: center;
+}
+
+.texto-introducao{
+
+}
+.menu li{
+        display: inline;
+}
+/*Estilos da página contato.html*/
