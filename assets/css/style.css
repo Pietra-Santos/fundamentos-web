@@ -1,8 +1,16 @@
 /*   Estilos da página index.html*/
-.center{
-        text-align: center;
-}
 
+*{
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+.bloco-menu{
+    background-color: black;
+    padding:20px;
+    font-weight: bold;
+}
 p{
     font-size: 20px;
     color: black;
@@ -14,12 +22,9 @@ p{
 }
 
 body{
-    background-color:rgb(140, 224, 235);
+    background-color:rgb(225, 179, 243);
 }
 
-ul,li{
-    list-style-type: none;
-}
 a{
     text-decoration: none;
 }
@@ -27,21 +32,62 @@ a{
         display: flex;
         flex-flow: row wrap;
         justify-content:center;
+        padding: 30px;
 }
 
 .profile-introducao{
     display: block;
-    text-align: left;
+    text: left;
 }
 
 .foto-centro{
-    text-align: center;
+    justify-content: flex-start;
 }
 
 .texto-introducao{
-
+    display:flex;
+    
 }
 .menu li{
-        display: inline;
+    display: inline;
+    list-style-type: none;
+    padding: 30px;
+    font-size: 18px;
+    padding: 10px;
+}
+.menu li a{
+    text-decoration: none;
+    color: white;
+}
+.menu li a:hover{
+    color: gray;
+}
+.br-50{
+    border-radius: 50px;
+}
+.about-me{
+    margin-right: 20px;
+    width: 740px;
+    text-align: left;
+}
+.tm-social{
+    width: 50px;
+    height: 50px;
+    padding: 30px;
+}
+.bloco-conteudo{
+    padding: 10px;
+}
+.container-2{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:center;
+    padding: 30px;
+}
+.mg-b{
+    margin-bottom: 50px;
+}
+.mg-t{
+    margin-top: 50px;
 }
 /*Estilos da página contato.html*/
