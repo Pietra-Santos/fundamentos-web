@@ -24,22 +24,23 @@
         <div>
             <form>
                 <p>
-                <label for="nome">Nome:</label>
-                <input type="text" id="nome">   
-                </p>
-            
                 <p>
-            
-                <label for="email"> E-mail: </label>
-                <input type="email" id="email">
-            
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" onkeyup="validaNome()">   
+                <div id='txtNome'></div>
                 </p>
-            
+                <p>
+                <label for="email"> E-mail: </label>
+                <div id='txtEmail'></div>
+                <input type="email" id="email" onkeyup="validaEmail()">
+                </p>
                 <p>
                 <label for="assunto"> Assunto: </label>
-                <textarea name="assunto" id="assunto" cols="30"  placeholder= "Escreva aqui..." rows="5"></textarea>
+                <textarea name="assunto" id="assunto" cols="30"  placeholder= "Escreva aqui..." rows="5" onkeyup="validaAssunto()"></textarea>
+                <div id="txtAssunto"></div>
                 </p>
-                <button>Enviar</button>
+                </p>
+                <button onclick="enviar()">Enviar</button>
                 </form>
         </div>
     </div>
@@ -48,6 +49,9 @@
          <p><img src= "assets/img/dancing.gif"></p>
    
     </div>
+    <script src="assets/js/script.js">
+
+    </script>
 
 </body>
 </html>
